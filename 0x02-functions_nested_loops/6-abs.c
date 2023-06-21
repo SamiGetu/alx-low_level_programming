@@ -1,14 +1,18 @@
 #include "main.h"
-
-int _abc(int i)
+/**
+*_abs - as
+*@n: number
+*Return: absolute value of n
+*/
+int _abs(int n)
 {
-	if (i >= 0)
+	if (n < 0)
 	{
-		return (i);
+		return (n * -1);
 	}
 	else
 	{
-		return (i * -1);
+		return (n);
 	}
-	_putchar('\n');
 }
+

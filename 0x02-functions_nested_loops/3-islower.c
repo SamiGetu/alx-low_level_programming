@@ -1,6 +1,9 @@
-include "main.h"
-
-
+#include "main.h"
+/**
+ * _islower - check if the inpute is lowercase
+ * @c: int variable
+ * Return: 1 for lowercase 0 for upercase
+ */
 int _islower(int c)
 {
 	if (c >= 97 && c <= 122)
@@ -11,5 +14,4 @@ int _islower(int c)
 	{
 		return (0);
 	}
-	_putchar('\n');
-}
+}}
