@@ -1,9 +1,12 @@
 #include "main.h"
-
-
+/**
+* main - print _putchar
+*
+* Return: 0 (sucess);
+*/
 int main(void)
 {
-	_putchar('-');
+	_putchar('_');
 	_putchar('p');
 	_putchar('u');
 	_putchar('t');
@@ -11,6 +14,7 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-	_putchar('\');
-	return(0);
+	_putchar('\n');
+
+		return (0);
 }
